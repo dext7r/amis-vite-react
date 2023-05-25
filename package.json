@@ -1,0 +1,64 @@
+{
+  "name": "amis-vite-react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://amis-vite-react.h7ml.cn",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "amis": "^3.0.0",
+    "amis-editor": "^5.3.0",
+    "amis-editor-core": "^5.3.0",
+    "amis-ui": "^3.0.0",
+    "monaco-editor": "^0.38.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "author": {
+    "name": "h7ml",
+    "mail": "h7ml@qq.com",
+    "github": "https://github.com/h7ml/amis-vite-react"
+  },
+  "keywords": [
+    "react",
+    "amis",
+    "amis-editor",
+    "amis-vite-react"
+  ],
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h7ml/amis-vite-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h7ml/amis-vite-react/issues"
+  }
+}
